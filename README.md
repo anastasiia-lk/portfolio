@@ -161,7 +161,9 @@ export const projectsData = [
 ];
 ```
 
-### Contact Section
+### Contact Sectio
+
+//
 
 ```javascript
 export const contactData = {
