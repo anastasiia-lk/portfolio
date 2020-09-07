@@ -9,18 +9,19 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Anastasiia',
+  subtitle: 'I am the Developer',
+  cta: 'Know more ',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Hello, my name is Anastasiia. I graduated from the department of the Applied Maths, Informatics and Mechanics of the VSU, RU. Previously worked as a sales manager (FMCG).',
+  paragraphTwo: 'I like to create and explore.',
+  paragraphThree: 'Positive and communicative.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -59,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'a.duplishcheva@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,7 +69,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/ADuplishcheva',
     },
     {
       id: nanoid(),
@@ -78,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/anastasiia-duplishcheva-a9b6891a7/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/anastasiia-lk',
     },
   ],
 };
